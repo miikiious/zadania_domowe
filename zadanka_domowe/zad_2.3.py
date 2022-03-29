@@ -1,10 +1,10 @@
-liczba = float(input("podaj liczbę: "))
+liczba = float(input("Podaj liczbę: "))
 suma = liczba
 ilosc = 1
 min = liczba
 max = liczba
 while liczba != "y":
-    liczba = input("podaj liczbę, a jeśli skończyłeś podaj [y]: ")
+    liczba = input("Podaj liczbę, a jeśli skończyłeś podaj [y]: ")
     if liczba != "y":
         liczba = float(liczba)
         suma = suma + liczba
