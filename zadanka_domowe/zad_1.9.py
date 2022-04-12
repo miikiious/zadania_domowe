@@ -1,5 +1,5 @@
 
-for liczba in range(1, 100):
+for liczba in range(1, 101):
     if liczba % 15 == 0:
         print('FizzBuzz')
     elif liczba % 3 == 0:
